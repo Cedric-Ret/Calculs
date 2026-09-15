@@ -32,11 +32,14 @@ namespace Calculs
                         Console.WriteLine("Quitter ........................ 0");
                         Console.Write("Choix :                          ");
                         choix = int.Parse(Console.ReadLine());
+                        // traitement des choix
+                        val1 = rand.Next(1, 10);
+                        val2 = rand.Next(1, 10);
                         correct = true;
                     }
                     catch
                     {
-                        Console.WriteLine("erreur de saisie")
+                        Console.WriteLine("erreur de saisie");
                     }
                 }
                 
